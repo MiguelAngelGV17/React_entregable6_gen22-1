@@ -1,0 +1,51 @@
+.logIn_container {
+  margin-top: 75px;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 400px;
+  padding: 25px;
+  width: 100%;
+}
+
+.logIn_greeting,
+.example_title,
+.logIn_suggestion {
+  text-align: center;
+}
+
+.logIn_greeting {
+  line-height: 2em;
+  margin-bottom: 1.8em;
+}
+
+.logIn_suggestion {
+  color: var(--text-suggestion);
+  margin-bottom: 1em;
+}
+
+.logIn_example {
+  background-color: var(--bg-example);
+  padding: 12px;
+  line-height: 1.8em;
+  border-radius: 10px;
+}
+
+.logIn_form{
+  margin-top: 1em;
+  line-height: 1.8em;
+
+}
+.input {
+  width: 100%;
+  padding: .5em;
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+}
+
+.logIn_button {
+  background: var(--primary);
+  color: var(--bg-white);
+  margin: 10px 0 25px;
+  padding: 1em;
+  width: 100%;
+}

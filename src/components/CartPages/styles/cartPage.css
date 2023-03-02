@@ -1,0 +1,21 @@
+/* 
+.home_cart{
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 8px 24px hsl(210deg 8% 62% / 20%);
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    transition: all 1s;
+    width: 300px;
+    z-index: 1000;
+}
+
+.open_modal{
+    right: -300px;
+}
+
+.cart_items{
+    display: grid;
+    max-height: 200px;
+} */

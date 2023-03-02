@@ -1,0 +1,52 @@
+:root {
+  --primary: #f85555;
+  --light-gray: #dcd9d9;
+  --gray: #c7c7c7;
+  --dark-gray: #4f4f4f;
+  --text-gray: #ababab;
+  --bg-white: #ffff;
+  --bg-example: #d8f5fd;
+  --text-suggestion: #2fa8f8;
+}
+
+* {
+  box-sizing: border-box;
+  color: #515151;
+  font-family: Yantramanav, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--light-gray);
+  min-width: 360px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+button {
+  border: none;
+}
